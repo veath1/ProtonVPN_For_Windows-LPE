@@ -31,7 +31,7 @@
 ## ProtonVPN Service
 - ProtonVPNService.exe(x64) 은 "ProtonVPN Service" 로 등록되어 있으며, user process 와 통신하는 프로세스.
 
-  ![service properties](.\asset\service_permi.png)
+  ![service properties](./asset/service_permi.png)
 
 또한, 해당 서비스는 위 사진과 같이 user 권한으로 시작, 중지가 가능함.
 
@@ -41,7 +41,7 @@ ProtonVPNService.exe 서비스 process는 실행 될 때, target 폴더를 삭�
 
 - target folder: C:\Users\\**<user>**\AppData\Local\ProtonVPN\Updates
 
-![vuln 1](.\asset\v1_afd.png)
+![vuln 1](./asset/v1_afd.png)
 
 해당 취약점이 트리거되는 시점에 procmon 툴을 이용하여 ProtonVPNService.exe 프로세스의 콜스택을 아래에서 확인할 수 있다. 
 
@@ -104,7 +104,7 @@ ProtonVPNService.exe 서비스 process는 실행 될 때, target 폴더를 삭�
 
 - target path: C:\Program Files\Proton\VPN\v3.2.9\profapi.dll
 
-![vuln 2](.\asset\v2_dllside.png)
+![vuln 2](./asset/v2_dllside.png)
 
 
 
@@ -112,7 +112,7 @@ ProtonVPNService.exe 서비스 process는 실행 될 때, target 폴더를 삭�
 
 ### Flow chart
 
-![vuln 2](.\asset\fc.png)
+![vuln 2](./asset/fc.png)
 
 1. C:\Config.Msi 폴더를 지정하고 있는 trick.txt 심볼릭 링크 파일을 `Updates`폴더 안에 생성( **Folder Contents Delete**).
 2. 취약점 1을 트리거 시켜, Updates 폴더를  RemoveDirectoryW 함수로 트리거되면,, 실제 trick.txt 지정되고 합번더 링크를 따라거면 C:\Config.Msi 폴더를 가르키고 있음.(ABUSING, PATH REPARSE를 유도함.)
