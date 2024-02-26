@@ -1,0 +1,4 @@
+﻿  pch.cpp
+  dllmain.cpp
+  LINK : C:\Users\user\Downloads\FilesystemEoPs\protonpocv2\x64\Debug\SystemCmdLauncher.dll not found or not built by the last incremental link; performing full link
+  SystemCmdLauncher.vcxproj -> C:\Users\user\Downloads\FilesystemEoPs\protonpocv2\x64\Debug\SystemCmdLauncher.dll

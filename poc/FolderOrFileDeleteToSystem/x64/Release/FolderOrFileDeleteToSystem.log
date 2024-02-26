@@ -1,0 +1,48 @@
+﻿  FolderOrFileDeleteToSystem.cpp
+C:\Users\user\Downloads\FilesystemEoPs\protonpocv3\FolderOrFileDeleteToSystem\Win-Ops-Master.h(292,3): warning C4091: 'static ': ignored on left of 'OpsMaster::FileOpLock' when no variable is declared
+  Win-Ops-Master.cpp
+C:\Users\user\Downloads\FilesystemEoPs\protonpocv3\FolderOrFileDeleteToSystem\Win-Ops-Master.h(292,3): warning C4091: 'static ': ignored on left of 'OpsMaster::FileOpLock' when no variable is declared
+C:\Users\user\Downloads\FilesystemEoPs\protonpocv3\FolderOrFileDeleteToSystem\Win-Ops-Master.cpp(161,32): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\user\Downloads\FilesystemEoPs\protonpocv3\FolderOrFileDeleteToSystem\Win-Ops-Master.cpp(165,76): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\user\Downloads\FilesystemEoPs\protonpocv3\FolderOrFileDeleteToSystem\Win-Ops-Master.cpp(186,11): warning C4101: 'status': unreferenced local variable
+C:\Users\user\Downloads\FilesystemEoPs\protonpocv3\FolderOrFileDeleteToSystem\Win-Ops-Master.cpp(352,31): warning C4244: '=': conversion from 'ULONG_PTR' to 'DWORD', possible loss of data
+C:\Users\user\Downloads\FilesystemEoPs\protonpocv3\FolderOrFileDeleteToSystem\Win-Ops-Master.cpp(361,28): warning C4244: '=': conversion from 'LONGLONG' to 'DWORD', possible loss of data
+C:\Users\user\Downloads\FilesystemEoPs\protonpocv3\FolderOrFileDeleteToSystem\Win-Ops-Master.cpp(377,28): warning C4244: '=': conversion from 'ULONG_PTR' to 'DWORD', possible loss of data
+C:\Users\user\Downloads\FilesystemEoPs\protonpocv3\FolderOrFileDeleteToSystem\Win-Ops-Master.cpp(385,19): warning C4312: 'type cast': conversion from 'DWORD' to 'HANDLE' of greater size
+C:\Users\user\Downloads\FilesystemEoPs\protonpocv3\FolderOrFileDeleteToSystem\Win-Ops-Master.cpp(416,19): warning C4312: 'type cast': conversion from 'DWORD' to 'HANDLE' of greater size
+C:\Users\user\Downloads\FilesystemEoPs\protonpocv3\FolderOrFileDeleteToSystem\Win-Ops-Master.cpp(504,43): warning C4267: '=': conversion from 'size_t' to 'ULONG', possible loss of data
+C:\Users\user\Downloads\FilesystemEoPs\protonpocv3\FolderOrFileDeleteToSystem\Win-Ops-Master.cpp(509,94): warning C4267: 'argument': conversion from 'size_t' to 'ULONG', possible loss of data
+C:\Users\user\Downloads\FilesystemEoPs\protonpocv3\FolderOrFileDeleteToSystem\Win-Ops-Master.cpp(565,61): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\user\Downloads\FilesystemEoPs\protonpocv3\FolderOrFileDeleteToSystem\Win-Ops-Master.cpp(934,8): warning C4101: 'bytesReturned': unreferenced local variable
+C:\Users\user\Downloads\FilesystemEoPs\protonpocv3\FolderOrFileDeleteToSystem\Win-Ops-Master.cpp(1045,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\user\Downloads\FilesystemEoPs\protonpocv3\FolderOrFileDeleteToSystem\Win-Ops-Master.cpp(1160,42): warning C4267: 'argument': conversion from 'size_t' to 'ULONG', possible loss of data
+C:\Users\user\Downloads\FilesystemEoPs\protonpocv3\FolderOrFileDeleteToSystem\Win-Ops-Master.cpp(1154,20): warning C4101: 'objattr': unreferenced local variable
+C:\Users\user\Downloads\FilesystemEoPs\protonpocv3\FolderOrFileDeleteToSystem\Win-Ops-Master.cpp(1191,32): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\user\Downloads\FilesystemEoPs\protonpocv3\FolderOrFileDeleteToSystem\Win-Ops-Master.cpp(1195,44): warning C4267: '=': conversion from 'size_t' to 'ULONG', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(2728,53): warning C4244: 'argument': conversion from 'wchar_t' to 'const _Elem', possible loss of data
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(2584,17): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' being compiled
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+C:\Users\user\Downloads\FilesystemEoPs\protonpocv3\FolderOrFileDeleteToSystem\Win-Ops-Master.cpp(630,20): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+C:\Users\user\Downloads\FilesystemEoPs\protonpocv3\FolderOrFileDeleteToSystem\Win-Ops-Master.cpp(630,2): message : see the first reference to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' in 'OpsMaster::GetMountPointData'
+  Generating code
+  425 of 435 functions (97.7%) were compiled, the rest were copied from previous compilation.
+    11 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  FolderOrFileDeleteToSystem.vcxproj -> C:\Users\user\Downloads\FilesystemEoPs\protonpocv3\x64\Release\FolderOrFileDeleteToSystem.exe

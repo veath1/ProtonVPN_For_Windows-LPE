@@ -1,0 +1,3 @@
+﻿  FolderOrFileDeleteToSystem.cpp
+C:\Users\user\Downloads\FilesystemEoPs\protonpocv2\FolderOrFileDeleteToSystem\Win-Ops-Master.h(292,3): warning C4091: 'static ': ignored on left of 'OpsMaster::FileOpLock' when no variable is declared
+  FolderOrFileDeleteToSystem.vcxproj -> C:\Users\user\Downloads\FilesystemEoPs\protonpocv2\x64\Debug\FolderOrFileDeleteToSystem.exe
