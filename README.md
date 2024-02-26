@@ -1,7 +1,5 @@
 # WIndows ProtonVPN For Windows Local Privilege Escalation Vulnerability
 
-[TOC]
-
 
 
 ## 분석환경
@@ -132,7 +130,10 @@ ProtonVPNService.exe 서비스 process는 실행 될 때, target 폴더를 삭�
 ## POC
 
 
-<video src=".\asset\poc.mp4"></video>
+
+https://github.com/veath1/ProtonVPN_For_Windows-LPE/assets/52561835/62a470bd-7761-403c-a05b-d46cad038460
+
+
 
 
 
@@ -144,7 +145,25 @@ ProtonVPNService.exe 서비스 process는 실행 될 때, target 폴더를 삭�
 
 - 비트는 대상 시스템와 일치해야 합니다.
 
-  
+
+## 패치 분석
+
+- 해당 취약한 코드가 삭제되었습니다.
+- https://github.com/ProtonVPN/win-app/commit/fc24808c430441b42103aeb4efab2f595d23287c
+
+```
+@@ -60,10 +55,6 @@ public string Path
+         public void Cleanup()
+         {
+             PathCleanup(_path);
+-            foreach (string localAppDataFolder in GetAllLocalAppDataPaths())
+-            {
+-                DeletePath(SysPath.Combine(localAppDataFolder, "ProtonVPN", "Updates"));
+-            }
+         }
+
+```
+
 
 ## 참고 문서
 
